@@ -1,0 +1,61 @@
+{
+  "_note": "Only properties shown in Zota's own Google Maps media are listed. Price, size, status and exact location are NOT known: confirm with the client and fill in. Set price to a number (naira) when known; null shows 'Price on request'.",
+  "listings": [
+    {
+      "id": "new-build-sapele",
+      "title": "Newly finished home, glass balustrade and timber-panel entrance",
+      "status": "Enquire",
+      "type": "House",
+      "location": "Sapele, Delta",
+      "price": null,
+      "priceSuffix": "",
+      "beds": null,
+      "baths": null,
+      "sqm": null,
+      "title_doc": "",
+      "featured": true,
+      "video": "assets/video/new-build-tour.mp4",
+      "images": [
+        "assets/img/tour-2.jpg",
+        "assets/img/tour-9.jpg",
+        "assets/img/tour-7.jpg",
+        "assets/img/new-build-poster.jpg"
+      ],
+      "summary": "A newly completed home from Zota Estates' own walk-through video: smoked-glass balustrade, slatted timber-panel entrance door, stone-clad base and fresh white rendering. Ask the team for the price, size, number of rooms, title documents and exact location, or book an inspection to see it in person.",
+      "features": [
+        "Smoked-glass balustrade",
+        "Timber-panel entrance door",
+        "Stone-clad plinth",
+        "Newly finished: ask about completion"
+      ],
+      "map": "5.8747984,5.7023029",
+      "mapLabel": "Meet us at the office (ask for the exact property location)"
+    },
+    {
+      "id": "gated-two-storey",
+      "title": "Gated two-storey property with palm-shaded compound",
+      "status": "Enquire",
+      "type": "House",
+      "location": "Sapele, Delta",
+      "price": null,
+      "priceSuffix": "",
+      "beds": null,
+      "baths": null,
+      "sqm": null,
+      "title_doc": "",
+      "featured": true,
+      "images": [
+        "assets/img/gated-property.jpg"
+      ],
+      "summary": "A two-storey building behind its own gate, with an open compound and mature palms, from Zota Estates' Google listing. Ask the team whether it's for sale, rent or lease, and for the price and documents.",
+      "features": [
+        "Gated compound",
+        "Two storeys",
+        "Mature palms",
+        "Open forecourt"
+      ],
+      "map": "5.8747984,5.7023029",
+      "mapLabel": "Meet us at the office (ask for the exact property location)"
+    }
+  ]
+}
