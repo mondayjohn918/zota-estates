@@ -32,6 +32,18 @@
     b.addEventListener("click", () => { v.muted = !v.muted; if (!v.muted && v.paused) v.play(); b.textContent = v.muted ? "Sound on" : "Mute"; });
   });
 
+
+  /* property finder on the home page */
+  const fd = $("#finder");
+  if (fd) fd.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const f = new FormData(fd);
+    const lines = ["Hi Zota Estates, I found you on your website.", `I want to: ${f.get("intent")}`, `Property: ${f.get("type")}`];
+    if (f.get("area")) lines.push(`Area: ${f.get("area")}`);
+    if (f.get("budget")) lines.push(`Budget: ₦${f.get("budget")}`);
+    window.open(waLink(lines.join(String.fromCharCode(10))), "_blank", "noopener");
+  });
+
   /* featured listings on home page */
   const feat = $("#featured");
   if (feat) loadListings().then((all) => { feat.innerHTML = all.filter((l) => l.featured).slice(0, 3).map(cardHTML).join("") +

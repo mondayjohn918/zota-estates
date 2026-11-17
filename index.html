@@ -16,8 +16,8 @@
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="fonts/Zodiak-Variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/GeneralSans-Variable.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/styles.css?v=5">
-  <link rel="stylesheet" href="assets/zota.css?v=5">
+  <link rel="stylesheet" href="assets/styles.css?v=9">
+  <link rel="stylesheet" href="assets/zota.css?v=9">
   <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"RealEstateAgent","name":"ZOTA-ESTATES LTD","telephone":"+2347030985685",
 "address":{"@type":"PostalAddress","streetAddress":"Total Filling Station, opp. New Road Junction","addressLocality":"Sapele","postalCode":"331107","addressRegion":"Delta","addressCountry":"NG"},
@@ -41,7 +41,7 @@
 
   <main id="main">
     <section class="vhero" aria-labelledby="hero-title">
-      <video id="hero-vid" class="vhero__bg" data-ambient src="assets/video/new-build-tour.mp4" poster="assets/img/tour-2.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
+      <video id="hero-vid" class="vhero__bg" data-ambient src="assets/video/hero-homes.mp4" poster="assets/img/tropical-home.jpg" autoplay muted loop playsinline preload="auto" aria-hidden="true"></video>
       <div class="wrap vhero__in">
         <p class="eyebrow">ZOTA-ESTATES LTD · Sapele, Delta State</p>
         <h1 id="hero-title">Rooted in <em>Sapele.</em> Ready for your next move.</h1>
@@ -57,7 +57,26 @@
       </div>
     </section>
 
-    <div class="ticker" aria-label="Services: buy, sell, rent, lease, develop, manage"><div class="ticker__track" aria-hidden="true"><span>Buy</span><span>Sell</span><span>Rent</span><span>Lease</span><span>Develop</span><span>Manage</span><span>Buy</span><span>Sell</span><span>Rent</span><span>Lease</span><span>Develop</span><span>Manage</span><span>Buy</span><span>Sell</span><span>Rent</span><span>Lease</span><span>Develop</span><span>Manage</span><span>Buy</span><span>Sell</span><span>Rent</span><span>Lease</span><span>Develop</span><span>Manage</span></div></div>
+    <section class="finder" aria-labelledby="finder-title">
+      <div class="wrap">
+        <form id="finder" class="finder__card">
+          <div class="finder__intro">
+            <p class="eyebrow">Property finder</p>
+            <h2 id="finder-title">Tell us what you need. We'll find it.</h2>
+          </div>
+          <label><span>I want to</span>
+            <select name="intent"><option>Buy</option><option>Rent</option><option>Lease</option><option>Sell my property</option><option>Build / develop</option></select></label>
+          <label><span>Property</span>
+            <select name="type"><option>Flat / apartment</option><option>House / duplex</option><option>Land / plot</option><option>Guest house</option><option>Shop / office</option></select></label>
+          <label><span>Area</span>
+            <input name="area" placeholder="e.g. Okpe Road, Sapele" autocomplete="off"></label>
+          <label><span>Budget (₦)</span>
+            <input name="budget" inputmode="numeric" placeholder="e.g. 1,500,000" autocomplete="off"></label>
+          <button class="btn" type="submit">Send to Zota</button>
+          <p class="finder__note">Opens WhatsApp with your request ready to send. Prefer to talk? Call <a href="tel:+2347030985685">0703 098 5685</a>.</p>
+        </form>
+      </div>
+    </section>
 
     <section class="sec">
       <div class="wrap">
@@ -66,10 +85,33 @@
       </div>
     </section>
 
-    <section class="sec field battens">
+    <section class="sec homes">
       <div class="wrap">
-        <div class="sec__head"><div><p class="eyebrow">From the field</p><h2>Real properties. Real footage.</h2></div><p>No stock houses here: these are Zota's own photos and videos. Tap to play.</p></div>
-        <div class="reels"><figure class="reel"><div class="reel__media"><span class="badge">Video · 0:11</span><video src="assets/video/new-build-tour.mp4" poster="assets/img/tour-2.jpg" controls playsinline preload="none"></video></div><figcaption><b>New-build walk-through</b>Glass balustrade, timber-panel door, stone-clad base.</figcaption></figure><figure class="reel"><div class="reel__media"><span class="badge">Video · 0:05</span><video src="assets/video/office-sign.mp4" poster="assets/img/office-sign-poster.jpg" controls playsinline preload="none"></video></div><figcaption><b>Find us at the junction</b>Our signboard at Total Filling Station, New Road Junction.</figcaption></figure><figure class="reel"><div class="reel__media"><span class="badge">Photo</span><img src="assets/img/gated-property.jpg" alt="Gated two-storey property" loading="lazy"></div><figcaption><b>Gated two-storey property</b>Palm-shaded compound behind its own gate.</figcaption></figure><figure class="reel"><div class="reel__media"><span class="badge">Photo</span><img src="assets/img/sapele-street.jpg" alt="On the streets of Sapele" loading="lazy"></div><figcaption><b>On the streets of Sapele</b>Where we work every day.</figcaption></figure></div>
+        <div class="sec__head"><div><p class="eyebrow">The homes we help you find</p><h2>Space to breathe. Room to grow.</h2></div><p class="homes__lede">From family duplexes behind palm-lined walls to quiet flats close to town, tell us how you want to live and we'll match it.</p></div>
+        <div class="mosaic">
+          <figure class="mosaic__a rv"><img src="assets/img/tropical-home.jpg" alt="Modern two-storey home with palm trees and a green lawn" loading="lazy"></figure>
+          <figure class="mosaic__b rv"><img src="assets/img/timber-lights.jpg" alt="Timber-framed home with warm pendant lights at dusk" loading="lazy"></figure>
+          <figure class="mosaic__c rv"><img src="assets/img/villa-lawn.jpg" alt="Family homes with a wide lawn under a blue sky" loading="lazy"></figure>
+          <figure class="mosaic__d rv"><img src="assets/img/modern-drive.jpg" alt="Modern home with a landscaped stone driveway" loading="lazy"></figure>
+        </div>
+        <p class="illus">Illustrative photography. See <a href="properties.html">current properties</a> for homes on Zota's books.</p>
+      </div>
+    </section>
+
+    <section class="sec keys">
+      <div class="wrap split">
+        <div class="split__media rv"><img src="assets/img/keys-smile.jpg" alt="A smiling new homeowner holding up her keys" loading="lazy"></div>
+        <div class="rv">
+          <p class="eyebrow">How it works</p>
+          <h2>From first message to keys in hand.</h2>
+          <ol class="steps-list">
+            <li><b>Tell us what you need</b><span>Area, type, budget and when you want to move.</span></li>
+            <li><b>Inspect in person</b><span>We arrange viewings at times that suit you.</span></li>
+            <li><b>Ask every question</b><span>Price, terms and documents, before any payment.</span></li>
+            <li><b>Move in</b><span>Keys handed over, and we stay a phone call away.</span></li>
+          </ol>
+          <div class="zhero__cta"><a class="btn" href="assistant.html">Start with Ask Zota</a></div>
+        </div>
       </div>
     </section>
 
@@ -125,7 +167,7 @@
     </div>
   </footer>
   <a class="fab" data-wa href="#" aria-label="Chat with Zota Estates on WhatsApp"></a>
-  <script src="assets/main.js?v=5" defer></script>
-  <script src="assets/zota.js?v=5" defer></script>
+  <script src="assets/main.js?v=9" defer></script>
+  <script src="assets/zota.js?v=9" defer></script>
 </body>
 </html>

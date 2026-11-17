@@ -29,3 +29,8 @@ This is a rule-based helper, not AI. It runs in the browser, stores nothing, and
 A real AI chat would need an API key held on a server: a serverless proxy such as a Cloudflare Worker, plus a paid model API. Never put a key in this static site.
 
 `_source/` holds the raw downloads. It is ignored by git, so don't deploy it.
+
+## Stock media (Pexels License: free for commercial use, no attribution required)
+- Hero video `assets/video/hero-homes.mp4`: a compilation of Pexels videos 40808151, 38675652 and 39105099. Stills `tropical-home`, `villa-lawn`, `timber-lights` and `modern-drive` are frames from Pexels videos 40808151, 38675652, 39105099 and 37544730.
+- Photos: `keys-smile` (Pexels 4971275), `key-handover` (7579196), `couple-keys` (7579211), `couple-home` (8470840, unused).
+- These are illustrative only. The home-page gallery is captioned as such, and the listings use Zota's own photos.
